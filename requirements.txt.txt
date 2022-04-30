@@ -1,0 +1,3 @@
+sagemaker==2.48.0
+transformers==4.12.3
+torch==1.7
