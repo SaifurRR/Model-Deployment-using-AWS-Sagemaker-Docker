@@ -28,23 +28,15 @@ This way, the model learns the same inner representation of the English language
   
  # 3. Dockerfile - >
 
-   i. Pull image from Dockerhub
-
+    i. Pull image from Dockerhub
    ii. Set nginx- server components to support multiple parallel incoming requests
-
-   iii. Install necessary dependencies for SageMaker Inference Toolkit
-
+  iii. Install necessary dependencies for SageMaker Inference Toolkit
    iv.  Install pip requirements
-  
     v.  Install Hugging Face libraries and its dependencies
-    
-    vi.  Copy entrypoint script to the image
-
-    vii. Copy the default custom service file to handle incoming data and inference requests|
-
-    viii. Define an entrypoint script for the docker image
-
-    ix. Define command to be passed to the entrypoint
+   vi.  Copy entrypoint script to the image
+  vii. Copy the default custom service file to handle incoming data and inference requests|
+ viii. Define an entrypoint script for the docker image
+   ix. Define command to be passed to the entrypoint
      
 
     
