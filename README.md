@@ -37,7 +37,7 @@ This way, the model learns the same inner representation of the English language
    iv.  Install pip requirements
 
     v.  Install Hugging Face libraries and its dependencies
-
+    
     vi.  Copy entrypoint script to the image
 
     vii. Copy the default custom service file to handle incoming data and inference requests|
