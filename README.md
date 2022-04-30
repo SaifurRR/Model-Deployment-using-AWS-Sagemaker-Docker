@@ -35,7 +35,7 @@ This way, the model learns the same inner representation of the English language
    iii. Install necessary dependencies for SageMaker Inference Toolkit
 
    iv.  Install pip requirements
-
+  
     v.  Install Hugging Face libraries and its dependencies
     
     vi.  Copy entrypoint script to the image
@@ -46,3 +46,5 @@ This way, the model learns the same inner representation of the English language
 
     ix. Define command to be passed to the entrypoint
      
+
+    
