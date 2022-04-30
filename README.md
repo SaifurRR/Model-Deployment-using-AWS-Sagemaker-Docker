@@ -15,21 +15,34 @@ This way, the model learns the same inner representation of the English language
 # 2. Model_Deployment_Docker.ipynb: Post to Container endpoint & prints out the response - >
     
   i. Install Sagemaker SDK, Transformers in Python3
+
   ii. Install necessary Libraries
+
   iii. Create SageMaker endpoint with the chosen model
+
   iv.  Deploy model to SageMaker Inference
+
   v. Test with Sample Input
+
   vi. Define Predictor
   
  # 3. Dockerfile - >
 
    i. Pull image from Dockerhub
-   ii. Set Server components to support multiple parallel incoming requests
+
+   ii. Set nginx- server components to support multiple parallel incoming requests
+
    iii. Install necessary dependencies for SageMaker Inference Toolkit
+
    iv.  Install pip requirements
+
     v.  Install Hugging Face libraries and its dependencies
+
     vi.  Copy entrypoint script to the image
-    vii. Copy the default custom service file to handle incoming data and inference requests
+
+    vii. Copy the default custom service file to handle incoming data and inference requests|
+
     viii. Define an entrypoint script for the docker image
+
     ix. Define command to be passed to the entrypoint
      
