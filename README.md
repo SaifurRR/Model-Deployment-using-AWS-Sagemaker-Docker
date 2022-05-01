@@ -22,7 +22,7 @@ This way, the model learns the same inner representation of the English language
   
    iv. Create Hugging Face Model Class
 
-    v.  Deploy model to SageMaker Inference
+   v.  Deploy model to SageMaker Inference
 
    vi. Test with Sample Input
 
@@ -38,7 +38,7 @@ This way, the model learns the same inner representation of the English language
 
    iv. Install necessary dependencies for SageMaker Inference Toolkit
 
-    v.  Install pip requirements
+   v.  Install pip requirements
 
    vi.  Install Hugging Face libraries and its dependencies
 
@@ -48,7 +48,7 @@ This way, the model learns the same inner representation of the English language
   
    ix. Build Docker Image
 
-    x. Define an entrypoint script for the docker image
+   x. Define an entrypoint script for the docker image
 
    xi. Define command to be passed to the entrypoint
 
