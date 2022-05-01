@@ -26,7 +26,7 @@ This way, the model learns the same inner representation of the English language
 
   vi. Test with Sample Input
 
-  vii. Use Predictor
+  vii. Run Predictor
   
  # 3. Dockerfile - >
 
