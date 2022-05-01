@@ -14,17 +14,17 @@ This way, the model learns the same inner representation of the English language
 
 # 2. Model_Deployment_Docker.ipynb: Post to Container endpoint & prints out the response - >
     
-  i. Install Sagemaker SDK, Transformers in Python3
+   i. Install Sagemaker SDK, Transformers in Python3
 
   ii. Install necessary Libraries
 
   iii. Create SageMaker endpoint with the chosen model
   
-  iv. Create Hugging Face Model Class
+   iv. Create Hugging Face Model Class
 
-  v.  Deploy model to SageMaker Inference
+    v.  Deploy model to SageMaker Inference
 
-  vi. Test with Sample Input
+   vi. Test with Sample Input
 
   vii. Run Predictor
   
@@ -32,27 +32,27 @@ This way, the model learns the same inner representation of the English language
 
     i. Create Dockerfile
 
-    ii. Pull image from Dockerhub
+   ii. Pull image from Dockerhub
 
-   iii. Set nginx- server components to support multiple parallel incoming requests
+  iii. Set nginx- server components to support multiple parallel incoming requests
 
-    iv. Install necessary dependencies for SageMaker Inference Toolkit
+   iv. Install necessary dependencies for SageMaker Inference Toolkit
 
-     v.  Install pip requirements
+    v.  Install pip requirements
 
-    vi.  Install Hugging Face libraries and its dependencies
+   vi.  Install Hugging Face libraries and its dependencies
 
-   vii.  Copy entrypoint script to the image
+  vii.  Copy entrypoint script to the image
 
-  viii. Copy the default custom service file to handle incoming data and inference requests
+ viii. Copy the default custom service file to handle incoming data and inference requests
   
-    ix. Build Docker Image
+   ix. Build Docker Image
 
-     x. Define an entrypoint script for the docker image
+    x. Define an entrypoint script for the docker image
 
-    xi. Define command to be passed to the entrypoint
+   xi. Define command to be passed to the entrypoint
 
-   xii. Run Inference and Check Docker Image in 'Docker Desktop'
+  xii. Run Inference and Check Docker Image in 'Docker Desktop'
      
 
     
