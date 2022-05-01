@@ -19,32 +19,40 @@ This way, the model learns the same inner representation of the English language
   ii. Install necessary Libraries
 
   iii. Create SageMaker endpoint with the chosen model
+  
+  iv. Create Hugging Face Model Class
 
-  iv.  Deploy model to SageMaker Inference
+  v.  Deploy model to SageMaker Inference
 
-  v. Test with Sample Input
+  vi. Test with Sample Input
 
-  vi. Define Predictor
+  vii. Use Predictor
   
  # 3. Dockerfile - >
 
-    i. Pull image from Dockerhub
+    i. Create Dockerfile
 
-   ii. Set nginx- server components to support multiple parallel incoming requests
+    ii. Pull image from Dockerhub
 
-  iii. Install necessary dependencies for SageMaker Inference Toolkit
+   iii. Set nginx- server components to support multiple parallel incoming requests
 
-   iv.  Install pip requirements
+    iv. Install necessary dependencies for SageMaker Inference Toolkit
 
-    v.  Install Hugging Face libraries and its dependencies
+     v.  Install pip requirements
 
-   vi.  Copy entrypoint script to the image
+    vi.  Install Hugging Face libraries and its dependencies
 
-  vii. Copy the default custom service file to handle incoming data and inference requests
+   vii.  Copy entrypoint script to the image
 
- viii. Define an entrypoint script for the docker image
+  viii. Copy the default custom service file to handle incoming data and inference requests
+  
+    ix. Build Docker Image
 
-   ix. Define command to be passed to the entrypoint
+     x. Define an entrypoint script for the docker image
+
+    xi. Define command to be passed to the entrypoint
+
+   xii. Run Inference and Check Docker Image in 'Docker Desktop'
      
 
     
