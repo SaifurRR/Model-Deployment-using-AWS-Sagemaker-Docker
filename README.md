@@ -1,4 +1,4 @@
-# Q2_Model_Deployment:
+# Model_Deployment_Sagemaker_Docker_HuggingFace:
 
 # 1. Reason for model selection - >
 
