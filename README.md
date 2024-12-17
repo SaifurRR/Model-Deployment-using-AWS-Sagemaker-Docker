@@ -6,7 +6,7 @@ I chose DistilBERT base uncased distilled SQuAD as my Huggingface model. DistilB
 
 i. Distillation loss: the model was trained to return the same probabilities as the BERT base model.
 
-ii. Masked language modeling (MLM): this is part of the original training loss of the BERT base model. When taking a sentence, the model randomly masks 15% of the words in the input then run the entire masked sentence through the model and has to predict the masked words. This is different from traditional recurrent neural networks (RNNs) that usually see the words one after the other, or from autoregressive models like GPT which internally mask the future tokens. It allows the model to learn a bidirectional representation of the sentence.
+ii. Masked language modeling (MLM): this is part of the original training loss of the BERT base model. When taking a sentence, the model randomly masks 15% of the words in the input then run the entire masked sentence through the model and has to predict the masked words. This is different from traditional recurrent neural networks (RNNs) that usually see the words one after the other, or from autoregressive models like GPT which internally mask the future tokens. It allows the model to learn a bidirectional representation of the sentence.  
 
 iii. Cosine embedding loss: the model was also trained to generate hidden states as close as possible as the BERT base model.
 This way, the model learns the same inner representation of the English language than its teacher model, while being faster for inference or downstream tasks.
