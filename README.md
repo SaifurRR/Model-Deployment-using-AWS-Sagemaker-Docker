@@ -11,7 +11,7 @@ ii. Masked language modeling (MLM): this is part of the original training loss o
 iii. Cosine embedding loss: the model was also trained to generate hidden states as close as possible as the BERT base model.
 This way, the model learns the same inner representation of the English language than its teacher model, while being faster for inference or downstream tasks.
 
-
+  
 # 2. Model_Deployment_Docker.ipynb: Post to Container endpoint & prints out the response - >
     
    i. Install Sagemaker SDK, Transformers in Python3
